@@ -1,1 +1,78 @@
-{"message":"https:\/\/images.dog.ceo\/breeds\/spaniel-irish\/n02102973_4328.jpg","status":"success"}
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <title>SMD Resistor Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+
+    <h1>SMD Resistor Calculator</h1>
+
+    <form>
+
+      <label for="resistance">Resistance Value:</label>
+
+      <input type="number" id="resistance" name="resistance" required>
+
+      <select id="resistance_units" name="resistance_units">
+
+        <option value="ohms">Ohms</option>
+
+        <option value="kohms">Kiloohms</option>
+
+        <option value="mohms">Megaohms</option>
+
+      </select>
+
+      
+
+      <label for="tolerance">Tolerance:</label>
+
+      <input type="number" id="tolerance" name="tolerance" required>
+
+      <select id="tolerance_units" name="tolerance_units">
+
+        <option value="percent">Percent</option>
+
+        <option value="ppm">PPM</option>
+
+      </select>
+
+      
+
+      <label for="temperature_coefficient">Temperature Coefficient:</label>
+
+      <input type="number" id="temperature_coefficient" name="temperature_coefficient" required>
+
+      <select id="temperature_units" name="temperature_units">
+
+        <option value="ppm">PPM/°C</option>
+
+        <option value="%">%</option>
+
+      </select>
+
+      
+
+      <input type="submit" value="Calculate">
+
+    </form>
+
+    
+
+    <div id="result"></div>
+
+    
+
+    <script src="script.js"></script>
+
+  </body>
+
+</html>
+
